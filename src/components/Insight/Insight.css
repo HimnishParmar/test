@@ -1,0 +1,76 @@
+.insight{
+    margin: 80px auto;
+    width: 90%;
+    display: flex;   
+    align-self: center;
+    justify-content: space-between;
+}
+
+.insightheader h1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center; 
+    font-size: 50px;
+}
+.insightcontent{
+    padding-bottom: 15px;
+}
+.insightinner img{
+    width: 100%;
+    border-radius: 10px;
+    display: block;
+}
+
+.insightinner{
+    flex-basis: 30%;
+    position: relative;
+}
+
+.insightcaption{
+    border-radius: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    background: rgba(35, 4, 137, 0.3);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: #fff;
+    cursor: pointer;
+    opacity: 0;
+    padding-top: 70%;
+    transition: 0.4s;
+    font-size: 20px;
+    text-align: center;
+}
+
+.insightinner:hover .insightcaption{
+    opacity: 1;
+    padding-top: 0;
+}
+
+.insight-btn{
+    background: #FFF;
+    color: #212121;
+    padding: 14px 25px;
+    font-size: 16px;
+    border-radius: 30px;
+    cursor: pointer;
+    border: 0;
+    outline: 0;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+
+@media(max-width :1270px){
+    .insight{
+        display: list-item;
+    }
+
+    
+}

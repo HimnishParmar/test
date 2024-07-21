@@ -1,0 +1,30 @@
+.hero{
+    width: 100%;
+    height: 500px;
+    min-height: 68vh;
+    background: linear-gradient(rgba(8,0,58,0.7),rgba(8,0,58,0.7)), url('../../Assets/PA-banner-1.webp');
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    position: relative;
+    border-bottom-left-radius: 75% 20%;
+    border-bottom-right-radius: 75% 20%;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.hero-text{
+    text-align: center;
+    max-width: 800px;
+}
+.hero-text h1{
+    font-size: 60px;
+    font-weight: 600;
+}
+.hero-text p{
+    font-size: 20px;
+    max-width: 700px;
+    margin: 10px auto 20px;
+    line-height: 1.4;
+}
